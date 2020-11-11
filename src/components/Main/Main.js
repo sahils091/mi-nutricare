@@ -1,26 +1,29 @@
 import React from "react";
-import "./main.scss"
+import "./main.scss";
 
 const Main = () => {
   return (
     <section className="main">
       <div className="main__wrapper">
         <div className="main__image">
-        <div>
-          <h1 className="main__image-title">Welcome to Minutri Care&#8482;</h1></div>
+          <div>
+            <h1 className="main__image-title">
+              Welcome to Minutri Care&#8482;
+            </h1>
+          </div>
         </div>
         <div className="main__blurb">
           <p>
             MiNutri Care is a trading firm catering to Pharma, Nutra, Feed and
             Food industries. We are a leading exporter, importer and stockist of
             raw material, solvents, food colors and flavors. Our clients range
-            from large corporate organizations to stand alone manufacturing units. Our ethos
-            is simple, providing quality with responsible sourcing at the most
-            competitive prices possible.
+            from large corporate organizations to stand alone manufacturing
+            units. Our ethos is simple, providing quality with responsible
+            sourcing at the most competitive prices possible.
           </p>
         </div>
         <div className="main__mission">
-          <h2> Our Mission</h2>
+          <h2 className="main__mission-title"> Our Mission</h2>
           <p>
             MiNutri Care as a firm is in existence because of two words
             perfection and quality. Our mission is ethical business while

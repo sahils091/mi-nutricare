@@ -75,6 +75,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #b1d9d9;
 }
 
 .main__image {
@@ -101,6 +102,7 @@ p {
   z-index: 5;
   font-size: 3rem;
   font-weight: bold;
+  color: #d4512a;
 }
 
 .main__blurb {
@@ -111,5 +113,9 @@ p {
 .main__mission {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.main__mission-title {
+  color: #d4512a;
 }
 /*# sourceMappingURL=main.css.map */
