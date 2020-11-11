@@ -1,0 +1,47 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+@import "../../partials/typography";
+
+
+.main{
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+
+
+    &__wrapper {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    &__image {
+        background-image: url("../../assets/main.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+
+    }
+    &__image-title{
+        z-index: 5;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    &__blurb {
+        padding-left: 1rem;
+        padding-right: 1rem;  
+    }
+    &__mission {
+        padding-left: 1rem;
+        padding-right: 1rem; 
+    }
+
+
+
+}
