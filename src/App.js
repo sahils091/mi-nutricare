@@ -1,8 +1,9 @@
 
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Main from './components/Main/Main';
 import Header from './components/Navbar/Header';
+import Services from './components/Services/Services';
 
 
 function App() {
@@ -10,8 +11,11 @@ function App() {
     <BrowserRouter>
     <div className="App">
      <Header/>
-     <Route path="/" component={Main}/>
-     
+     <Switch>
+      <Route path="/" exact component={Main}/>
+     <Route path="/services" component={Services}/>
+     </Switch>
+
     </div>
     </BrowserRouter>
   );

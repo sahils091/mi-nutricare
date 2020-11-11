@@ -1,0 +1,43 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+@import "../../partials/typography";
+
+.services {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #b1d9d9;
+  }
+
+  &__image {
+    background-image: url("../../assets/service.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  &__image-title {
+    z-index: 5;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d4512a;
+  }
+
+  &__blurb {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &__mission {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &__mission-title {
+    color: #d4512a;
+  }
+}

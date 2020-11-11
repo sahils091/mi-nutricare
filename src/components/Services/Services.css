@@ -67,7 +67,7 @@ p {
   }
 }
 
-.main__wrapper {
+.services__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,8 +78,8 @@ p {
   background-color: #b1d9d9;
 }
 
-.main__image {
-  background-image: url("../../assets/main.jpg");
+.services__image {
+  background-image: url("../../assets/service.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,24 +98,24 @@ p {
   margin-bottom: 1rem;
 }
 
-.main__image-title {
+.services__image-title {
   z-index: 5;
   font-size: 3rem;
   font-weight: bold;
   color: #d4512a;
 }
 
-.main__blurb {
+.services__blurb {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.main__mission {
+.services__mission {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.main__mission-title {
+.services__mission-title {
   color: #d4512a;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=Services.css.map */
