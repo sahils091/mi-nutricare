@@ -25,6 +25,15 @@ const Main = () => {
         <div className="main__mission">
           <h2 className="main__mission-title"> Our Mission</h2>
           <p>
+            MiNutri Care is a proprietary firm owned by Mr. Manoj Singh. He has
+            been in the Indian pharmaceutical industry for more than two
+            decades. In his long career, he has managed a major manufacturing
+            unit and also been a head honcho in purchase and sourcing for many
+            pharma corporates. MiNutri Care is the brain child of years of
+            experience gained by hard work in the field and an unshakable belief
+            in quality and perfection.
+          </p>
+          <p>
             MiNutri Care as a firm is in existence because of two words
             perfection and quality. Our mission is ethical business while
             ensuring the best quality possible. We strive for perfection every

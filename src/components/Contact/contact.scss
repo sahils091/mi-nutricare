@@ -1,0 +1,47 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+@import "../../partials/typography";
+
+.contact {
+  padding: 1rem;
+  &__wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  &__image {
+    text-align: right;
+  }
+
+  &__items-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+
+  &__list-title {
+    font-weight: bold;
+    color: #d4512a;
+  }
+
+  &__list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &__item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #d4512a;
+    text-transform: uppercase;
+  }
+  &__image-logo {
+    height: 30px;
+    margin-left: 1rem;
+  }
+  &__text {
+    text-decoration: none;
+    color: black;
+  }
+}

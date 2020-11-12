@@ -1,38 +1,40 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import "./navbar.scss"
-import Logo from "../../assets/logo.jpg"
-import {Container, Nav, Navbar } from "react-bootstrap";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./navbar.scss";
+import Logo from "../../assets/logo.jpg";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
-    return (
-        <Container className="p-0" fluid={true}>
-        <Navbar className="border-bottom" bg="transparent" expand="lg">
-        <Nav><NavLink to="/">
-          <img src={Logo} className="nav__logo" alt="MiNutri Care"/>
-         </NavLink></Nav>
-        
+  return (
+    <Container className="p-0" fluid={true}>
+      <Navbar className="border-bottom" bg="transparent" expand="lg">
+        <Nav>
+          <NavLink to="/">
+            <img src={Logo} className="nav__logo" alt="MiNutri Care" />
+          </NavLink>
+        </Nav>
+
         <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
         <Navbar.Collapse id="navbar-toggle">
           <Nav className="ml-auto">
-            <NavLink className="nav-link"  to="/">
-              Home 
+            <NavLink className="nav-link" to="/">
+              Home
             </NavLink>
             <NavLink className="nav-link" to="/services">
-              Services 
+              Services
             </NavLink>
 
             <NavLink className="nav-link" href="#projects" to="/products">
-             Products
+              Products
             </NavLink>
-            <NavLink className="nav-link" href="#contact" to="/contact">
-             Get in Touch
-            </NavLink>
+            <a className="nav-link" href="#contact">
+              Get in Touch
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-        </Container>
-    );
-};  
+    </Container>
+  );
+};
 
 export default Header;

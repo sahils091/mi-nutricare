@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap");
+* {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h3 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+h4 {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+p {
+  font-size: 15px;
+  line-height: 26px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.contact {
+  padding: 1rem;
+}
+
+.contact__wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.contact__image {
+  text-align: right;
+}
+
+.contact__items-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.contact__list-title {
+  font-weight: bold;
+  color: #d4512a;
+}
+
+.contact__list {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.contact__item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #d4512a;
+  text-transform: uppercase;
+}
+
+.contact__image-logo {
+  height: 30px;
+  margin-left: 1rem;
+}
+
+.contact__text {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=contact.css.map */
