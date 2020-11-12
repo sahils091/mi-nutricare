@@ -99,7 +99,7 @@ const Products = () => {
             <h4>(P & G)</h4>
           </h3>
           <h3 className="products__item">HERBAL EXTRACTS
-          <h4></h4></h3>
+          </h3>
           <h3 className="products__item">
             5-Amino-O-Cresol
             <h4>(2835-95-2)</h4>
