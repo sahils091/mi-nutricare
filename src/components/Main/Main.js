@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.scss";
+import  maple from  "../../assets/maple2.gif";
 
 const Main = () => {
   return (
@@ -9,6 +10,8 @@ const Main = () => {
           <div>
             <h1 className="main__image-title">
               Welcome to Minutri Care&#8482;
+              <img className="main__logo" src={maple} alt="maple leaf"/>
+              
             </h1>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./services.scss";
+import  maple from  "../../assets/maple2.gif";
 
 const Services = () => {
   return (
@@ -8,6 +9,7 @@ const Services = () => {
         <div className="services__image">
           <div>
             <h1 className="services__image-title">How We Do Business</h1>
+            <img className="services__logo" src={maple} alt="maple leaf"/>
           </div>
         </div>
         <div className="services__blurb">
