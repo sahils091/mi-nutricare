@@ -1,6 +1,8 @@
 import React from "react";
 import "./contact.scss";
 import Logo from "../../assets/logo.jpg";
+import india from "../../assets/indian.jpg";
+import canada from "../../assets/canada.jpg";
 
 const Contact = () => {
   return (
@@ -10,14 +12,26 @@ const Contact = () => {
           <div className="contact__items">
             <h4 className="contact__items-title">Our Offices</h4>
             <p>
+              <img src={india} alt="indian-flag" className="contact__flag"/>
+            </p>
+            <p>
               3, NNH, Sofiya Zuber Road,
               <br />
               Nagpada, Mumbai-400008.
             </p>
             <p>
+            <strong>Email:</strong> sales@minutri.in
+            </p>
+            <p>
+              <img className="contact__flag" src={canada} alt="canadian-flag"/>
+            </p>
+            <p>
               Unit 814, 666 Ontario Street,
               <br />
               Toronto, ON, Canada
+            </p>
+            <p>
+            <strong>Email:</strong> info@minutri.in
             </p>
           </div>
           <div className="contact__details">
@@ -29,10 +43,10 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="contact__text"
               >
-                Email: sales@minutri.in/manoj@minutri.in
+                <strong>Email:</strong> manoj@minutri.in 
               </a>
             </p>
-            <p>Phone : 022-60601116/+91 09702948289</p>
+            <p><strong>Phone :</strong> 022-60601116/+91 - 09702948289</p>
           </div>
         </div>
         <div className="contact__image">

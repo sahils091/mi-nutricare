@@ -17,6 +17,10 @@
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
+    flex-direction: column;
+    @include tablet {
+      flex-direction: row;
+    }
   }
 
   &__list-title {
@@ -36,6 +40,11 @@
     border-bottom: 1px solid #d4512a;
     text-transform: uppercase;
   }
+  &__items-title{
+    color: #d4512a;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
   &__image-logo {
     height: 30px;
     margin-left: 1rem;
@@ -43,5 +52,9 @@
   &__text {
     text-decoration: none;
     color: black;
+  }
+  &__flag {
+    width: auto;
+    height: 1.5625rem;
   }
 }
