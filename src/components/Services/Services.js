@@ -8,8 +8,9 @@ const Services = () => {
       <div className="services__wrapper">
         <div className="services__image">
           <div>
-            <h1 className="services__image-title">How We Do Business</h1>
-            <img className="services__logo" src={maple} alt="maple leaf"/>
+            <h1 className="services__image-title">How We Do Business
+            
+            <img className="services__logo" src={maple} alt="maple leaf"/></h1>
           </div>
         </div>
         <div className="services__blurb">

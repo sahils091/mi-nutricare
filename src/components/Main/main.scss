@@ -21,6 +21,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   &__image-title {
     z-index: 5;
@@ -43,5 +44,6 @@
   &__logo {
     width: 10%;
     height: auto;
+    margin-left: 5px;
   }
 }
