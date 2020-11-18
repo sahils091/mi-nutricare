@@ -9,7 +9,7 @@ const Main = () => {
         <div className="main__image">
           <div>
             <h1 className="main__image-title">
-              Welcome to Minutri Care&#8482;
+              Welcome to Minutri Care&reg;
               <img className="main__logo" src={maple} alt="maple leaf"/>
               
             </h1>

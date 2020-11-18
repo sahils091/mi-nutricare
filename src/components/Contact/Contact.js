@@ -47,12 +47,12 @@ const Contact = () => {
               </a>
             </p>
             <p>
-              <strong>Phone :</strong> 022-60601116/+91 - 09702948289
+              <strong>Phone :</strong> +91- 60601116/+91- 9702948289
             </p>
           </div>
         </div>
         <div className="contact__image">
-          <span>MiNutri Care ™ 2018 - All Rights Reserved</span>
+          <span>MiNutri Care &reg; 2018 - All Rights Reserved</span>
 
           <img src={Logo} alt="Minutri Care" className="contact__image-logo" />
           <div></div>

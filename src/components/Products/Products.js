@@ -53,11 +53,8 @@ const Products = () => {
           </h3>
           <h3 className="products__item">
             GLYCERINE USP
-            <h4 className="products__subTitle">( IP/BP/USP/EP)</h4>
           </h3>
-          <h3 className="products__item">
-            SODIUM STARCH GLYCOLATE
-          </h3>
+         
           <h3 className="products__item">
             HERBAL EXTRACTS
             {/* <h4>(IP/BP)</h4> */}
@@ -91,6 +88,7 @@ const Products = () => {
             PURIFIED TALC
             <h4 className="products__subTitle">(IP/BP)</h4>
           </h3>{" "}
+          
           <h3 className="products__item">
             SODIUM AGLINATE
             <h4 className="products__subTitle"> (IP/BP/USP/EP)</h4>
@@ -98,6 +96,10 @@ const Products = () => {
           <h3 className="products__item">
             SODIUM CARBOXYMETHYL CELLULOSE
             <h4 className="products__subTitle">IP /BP/USP/EP( TYPE –A/B) - POTATO /CORN BASED</h4>
+          </h3>
+          <h3 className="products__item">
+            SODIUM STARCH GLYCOLATE
+            <h4 className="products__subTitle">( IP/BP/USP/EP)</h4>
           </h3>
           <h3 className="products__item">
             SUGAR SPHERES
