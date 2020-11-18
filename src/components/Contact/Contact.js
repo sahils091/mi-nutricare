@@ -47,7 +47,7 @@ const Contact = () => {
               </a>
             </p>
             <p>
-              <strong>Phone :</strong> +91- 60601116/+91- 9702948289
+              <strong>Phone :</strong> +91- 22 60601116/+91- 9702948289
             </p>
           </div>
         </div>
