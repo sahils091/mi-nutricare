@@ -67,6 +67,7 @@
     padding-bottom: 1rem;
     transform: scale(0.9);
     transition: 0.5s ease-in-out;
+    cursor: pointer;
     &:hover {
       transform: scale(1);
     }
