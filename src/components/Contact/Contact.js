@@ -20,7 +20,7 @@ const Contact = () => {
               Nagpada, Mumbai-400008.
             </p>
             <p>
-              <strong>Email:</strong> sales@minutri.in
+              <strong>Email:</strong> mkt1@minutri.in
             </p>
             <p>
               <img className="contact__flag" src={canada} alt="canadian-flag" />
