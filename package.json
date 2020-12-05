@@ -1,5 +1,6 @@
 {
   "name": "mi-nutricare-v2",
+  "homepage": "http://minutri.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
